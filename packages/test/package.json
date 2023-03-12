@@ -1,7 +1,7 @@
 {
   "name": "@amihhs/monorepo-template-test",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "monorepo-template test package",
   "author": {
     "name": "amihhs",
@@ -48,6 +48,5 @@
     "stub": "unbuild --stub",
     "dev": "esno ./src/index.ts"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
