@@ -1,7 +1,7 @@
 {
   "name": "@amihhs/monorepo-template-utils",
   "type": "module",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "monorepo-template utils package",
   "author": {
     "name": "amihhs",
