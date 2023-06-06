@@ -6,8 +6,6 @@ import { fileURLToPath } from 'url'
 const destinations = [
   ['../LICENSE', '../packages/test/LICENSE'],
   ['../README.md', '../packages/test/README.md'],
-  ['../LICENSE', '../packages/utils/LICENSE'],
-  ['../README.md', '../packages/utils/README.md'],
 ]
 
 const _filename = fileURLToPath(import.meta.url)

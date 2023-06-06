@@ -15,5 +15,15 @@
     "noImplicitReturns": true,
     "skipLibCheck": true
   },
-  "include": ["packages"]
+  "include": ["packages"],
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/client/**",
+    "**/playground/**",
+    "**/examples/**",
+    "**/fixtures/**",
+    "**/interactive/**",
+    "**/test/dts/**"
+  ]
 }

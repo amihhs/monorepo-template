@@ -11,6 +11,8 @@
     "url": "https://github.com/amihhs"
   },
   "scripts": {
+    "docs:build": "pnpm -C docs build",
+    "dev": "pnpm -r run dev",
     "build": "rimraf packages/*/dist && esno scripts/copy-files.ts && pnpm -r run build",
     "release": "bumpp -r",
     "test": "vitest",
